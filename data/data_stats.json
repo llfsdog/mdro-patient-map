@@ -1,0 +1,14 @@
+{
+  "total_patients": 454,
+  "strain_distribution": {
+    "ESBLE": 404,
+    "MRSA": 40,
+    "CRO": 10
+  },
+  "coordinate_bounds": {
+    "min_lat": 20.0052014779947,
+    "max_lat": 24.8285087019492,
+    "min_lon": 110.351721566266,
+    "max_lon": 116.5194906376
+  }
+}

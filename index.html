@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>MDRO 患者分布地图</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Microsoft YaHei', Arial, sans-serif;
+      font-size: 14px;
+      line-height: 1.4;
+    }
+    
+    #map { 
+      height: 100vh; 
+      width: 100%;
+    }
+    
+    .control-panel {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      z-index: 1000;
+      background: white;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      min-width: 280px;
+    }
+    
+    .control-panel h3 {
+      margin: 0 0 10px 0;
+      color: #333;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    
+    .control-group {
+      margin-bottom: 15px;
+    }
+    
+    .control-group label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+      color: #555;
+      font-size: 14px;
+    }
+    
+    .control-group select {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-size: 14px;
+      box-sizing: border-box;
+    }
+    
+    .layer-toggles-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-bottom: 8px;
+    }
+    
+    .layer-toggle {
+      display: flex;
+      align-items: center;
+      flex: 1;
+      min-width: 0;
+    }
+    
+    .layer-toggle input[type="checkbox"] {
+      width: auto;
+      margin-right: 6px;
+    }
+    
+    .layer-toggle label {
+      font-size: 13px;
+      color: #555;
+      white-space: nowrap;
+    }
+    
+    .stats-panel {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      z-index: 1000;
+      background: white;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      min-width: 200px;
+    }
+    
+    .stats-panel h3 {
+      margin: 0 0 10px 0;
+      color: #333;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    
+    .stats-item {
+      margin-bottom: 8px;
+      font-size: 14px;
+      color: #555;
+    }
+    
+    .stats-value {
+      font-weight: bold;
+      color: #e74c3c;
+      font-size: 14px;
+    }
+    
+    .legend {
+      background: white;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      font-size: 14px;
+      line-height: 1.4;
+    }
+    
+    .legend h4 {
+      margin: 0 0 10px 0;
+      color: #333;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    
+    .legend-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 8px;
+    }
+    
+    .legend-item span {
+      font-size: 14px;
+      color: #555;
+    }
+    
+    .legend-color {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      margin-right: 10px;
+      border: 2px solid #333;
+    }
+    
+    .colorbar-container {
+      margin: 10px 0;
+    }
+    
+    .colorbar {
+      width: 100%;
+      height: 20px;
+      background: linear-gradient(to right, #ffffcc, #ffeda0, #fed976, #feb24c, #f03b20);
+      border-radius: 4px;
+      border: 1px solid #ddd;
+    }
+    
+    .colorbar-labels {
+      display: flex;
+      justify-content: space-between;
+      font-size: 11px;
+      color: #666;
+      margin-top: 3px;
+    }
+    
+    /* 参考基孔肯雅热地图的左下角控件设置 */
+    /* 调整缩放控件位置到左下角最底部，横着放 */
+    .leaflet-top.leaflet-left .leaflet-control-zoom {
+      position: fixed !important;
+      bottom: 25px !important;
+      left: 10px !important;
+      top: auto !important;
+      margin: 0 !important;
+      border-radius: 8px !important;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1) !important;
+      border: none !important;
+      /* 让缩放按钮水平排列 */
+      display: flex !important;
+      flex-direction: row !important;
+    }
+    
+    /* 调整缩放按钮的样式 */
+    .leaflet-control-zoom a {
+      display: inline-block !important;
+      margin: 0 2px !important;
+    }
+    
+    /* 图层控制位置（最上方） */
+    .leaflet-control-layers {
+      position: fixed !important;
+      bottom: 70px !important;
+      left: 10px !important;
+      margin: 0 !important;
+      border-radius: 8px !important;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1) !important;
+      border: none !important;
+      background-color: white !important;
+    }
+    
+    /* 统一缩略图的右边距 */
+    .leaflet-bottom.leaflet-right .leaflet-control {
+      margin-right: 10px !important;
+      margin-bottom: 10px !important;
+    }
+    
+    /* 患者聚类样式 */
+    .custom-cluster {
+      background: rgba(139, 0, 0, 0.5) !important; /* 深红色，50%透明度 */
+      border: 2px solid #8B0000 !important;
+      border-radius: 50% !important;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.3) !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+    }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  
+  <!-- 控制面板 -->
+  <div class="control-panel">
+    <h3>显示控制</h3>
+    
+    <div class="control-group">
+      <label>图层显示：</label>
+      <div class="layer-toggles-row">
+        <div class="layer-toggle">
+          <input type="checkbox" id="clustering-toggle" checked>
+          <label for="clustering-toggle">患者聚类</label>
+        </div>
+        <div class="layer-toggle">
+          <input type="checkbox" id="points-toggle">
+          <label for="points-toggle">患者点图</label>
+        </div>
+        <div class="layer-toggle">
+          <input type="checkbox" id="heatmap-toggle">
+          <label for="heatmap-toggle">热力图</label>
+        </div>
+      </div>
+    </div>
+    
+    <div class="control-group">
+      <label>菌种筛选：</label>
+      <select id="strain-filter">
+        <option value="all">全部菌种</option>
+        <option value="ESBLE">ESBLE</option>
+        <option value="MRSA">MRSA</option>
+        <option value="CRO">CRO</option>
+      </select>
+    </div>
+  </div>
+  
+  <!-- 统计面板 -->
+  <div class="stats-panel">
+    <h3>统计信息</h3>
+    <div class="stats-item">
+      总患者数: <span class="stats-value" id="total-patients">0</span>
+    </div>
+    <div class="stats-item">
+      当前显示: <span class="stats-value" id="current-patients">0</span>
+    </div>
+    <div class="stats-item">
+      主要菌种: <span class="stats-value" id="main-strain">-</span>
+    </div>
+    <div class="stats-item">
+      热力状态: <span class="stats-value" id="heat-intensity">-</span>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet.heat/dist/leaflet-heat.js"></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
+  <script>
+    // 全局变量
+    let map;
+    let allData = [];
+    let currentData = [];
+    let pointLayer;
+    let heatmapLayer;
+    let clusterLayer;
+    let currentStrain = 'all';
+    let layerControl;
+    
+    // 菌种颜色映射 - 根据实际数据调整
+    const strainColors = {
+      'ESBLE': '#e74c3c',  // 红色 - 最多
+      'MRSA': '#3498db',   // 蓝色
+      'CRO': '#f39c12'     // 橙色
+    };
+    
+    // 图层管理变量
+    let currentOverlays = {};
+    
+    // 存储原始底图图层引用
+    let originalBaseLayers = {};
+    
+    // 完全重建图层控制
+    function rebuildLayerControl() {
+      if (layerControl) {
+        // 移除现有的图层控制
+        map.removeControl(layerControl);
+        
+        // 构建当前的overlay - 不包含任何overlay，只保留底图切换
+        const overlays = {};
+        // 注意：患者点图和热力图都不添加到图层控制中，只能通过显示控制管理
+        
+        // 重新创建图层控制，使用原始的底图图层
+        layerControl = L.control.layers(originalBaseLayers, overlays, {
+          position: 'bottomleft',
+          collapsed: true
+        }).addTo(map);
+      }
+    }
+    
+    // 安全的图层管理函数
+    function safeAddOverlay(layer, name) {
+      if (layer) {
+        currentOverlays[name] = layer;
+        // 患者点图和热力图都不添加到图层控制中，只能通过显示控制管理
+        // 因此不需要重建图层控制
+      }
+    }
+    
+    // 移除图层函数
+    function safeRemoveOverlay(name) {
+      if (currentOverlays[name]) {
+        delete currentOverlays[name];
+        // 患者点图和热力图都不添加到图层控制中，只能通过显示控制管理
+        // 因此不需要重建图层控制
+      }
+    }
+    
+    // 创建聚类配置
+    function createClusterConfig() {
+      return {
+        maxClusterRadius: 50,        // 最大聚类半径
+        spiderfyOnMaxZoom: true,     // 最大缩放时展开
+        showCoverageOnHover: false,  // 悬停时显示覆盖范围
+        zoomToBoundsOnClick: true,   // 点击时缩放到区域
+        disableClusteringAtZoom: 15, // 15级缩放时禁用聚类
+        // 自定义聚类图标
+        iconCreateFunction: function(cluster) {
+          const count = cluster.getChildCount();
+          
+          // 线性增长计算直径：20px (1-10个患者) 到 60px (>50个患者)
+          const minDiameter = 20;
+          const maxDiameter = 60;
+          const minCount = 1;
+          const maxCount = 50;
+          
+          // 线性插值计算直径
+          const diameter = Math.min(
+            minDiameter + (count - minCount) / (maxCount - minCount) * (maxDiameter - minDiameter),
+            maxDiameter
+          );
+          
+          return L.divIcon({
+            html: `<div class="cluster-marker" style="width: ${diameter}px; height: ${diameter}px; line-height: ${diameter}px;"></div>`,
+            className: 'custom-cluster',
+            iconSize: L.point(diameter, diameter)
+          });
+        }
+      };
+    }
+
+    // 初始化地图
+    function initMap() {
+      map = L.map('map', {
+        zoomControl: false  // 禁用默认的缩放控件
+      }).setView([22.2514, 113.5674], 11); // 珠海市中心
+      
+      // 创建多个底图图层
+      const lightMap = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+        attribution: '&copy; OpenStreetMap contributors &copy; CARTO',
+        subdomains: 'abcd'
+      });
+      
+      const darkMap = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+        attribution: '&copy; OpenStreetMap contributors &copy; CARTO',
+        subdomains: 'abcd'
+      });
+      
+      const streetMap = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; OpenStreetMap contributors'
+      });
+      
+      // 添加默认底图
+      lightMap.addTo(map);
+      
+      // 保存原始底图图层引用
+      originalBaseLayers = {
+        "简洁地图": lightMap,
+        "深色地图": darkMap,
+        "街道地图": streetMap
+      };
+      
+      // 添加图层控制
+      layerControl = L.control.layers(originalBaseLayers, {}, {
+        position: 'bottomleft',
+        collapsed: true
+      }).addTo(map);
+      
+      // 添加自定义缩放控件到左下角
+      L.control.zoom({
+        position: 'bottomleft'
+      }).addTo(map);
+      
+      // 添加图例
+      addLegend();
+    }
+    
+    // 检测运行环境
+    function detectEnvironment() {
+      if (window.location.protocol === 'file:') {
+        return 'local'; // 本地文件访问
+      } else if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+        return 'development'; // 本地服务器
+      } else {
+        return 'production'; // 在线版本
+      }
+    }
+    
+    // 显示本地文件访问提示
+    function showLocalFileMessage() {
+      // 创建提示信息
+      const messageDiv = document.createElement('div');
+      messageDiv.style.cssText = `
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: white;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+        z-index: 10000;
+        max-width: 500px;
+        text-align: center;
+        font-family: 'Microsoft YaHei', Arial, sans-serif;
+      `;
+      
+      messageDiv.innerHTML = `
+        <h3 style="color: #e74c3c; margin-bottom: 20px;">📁 本地文件访问模式</h3>
+        <p style="margin-bottom: 15px; line-height: 1.6;">
+          检测到您正在通过本地文件方式访问地图应用。
+        </p>
+        <p style="margin-bottom: 20px; line-height: 1.6; color: #666;">
+          由于浏览器安全限制，无法直接加载数据文件。请使用以下方式之一：
+        </p>
+        <div style="text-align: left; margin-bottom: 20px;">
+          <p><strong>方法1：</strong>双击 <code>启动地图.bat</code> 文件</p>
+          <p><strong>方法2：</strong>在命令行运行：<code>python -m http.server 8000</code></p>
+          <p><strong>方法3：</strong>使用其他HTTP服务器工具</p>
+        </div>
+        <button onclick="this.parentElement.remove()" style="
+          background: #007cba;
+          color: white;
+          border: none;
+          padding: 10px 20px;
+          border-radius: 5px;
+          cursor: pointer;
+          font-size: 14px;
+        ">我知道了</button>
+      `;
+      
+      document.body.appendChild(messageDiv);
+    }
+    
+    // 加载数据
+    async function loadData() {
+      const env = detectEnvironment();
+      
+      if (env === 'local') {
+        // 本地文件访问，显示提示信息
+        showLocalFileMessage();
+        return;
+      }
+      
+      try {
+        const response = await fetch('data/mdro_patients.json');
+        allData = await response.json();
+        currentData = allData.features;
+        
+        updateMap();
+        updateStats();
+      } catch (error) {
+        console.error('加载数据失败:', error);
+        
+        // 如果是在服务器环境下加载失败，也显示提示
+        if (env !== 'local') {
+          const errorDiv = document.createElement('div');
+          errorDiv.style.cssText = `
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #f8d7da;
+            color: #721c24;
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid #f5c6cb;
+            z-index: 10000;
+            max-width: 300px;
+            font-family: 'Microsoft YaHei', Arial, sans-serif;
+          `;
+          errorDiv.innerHTML = `
+            <strong>数据加载失败</strong><br>
+            请确保 <code>data/mdro_patients.json</code> 文件存在
+          `;
+          document.body.appendChild(errorDiv);
+          
+          // 5秒后自动移除错误提示
+          setTimeout(() => {
+            if (errorDiv.parentElement) {
+              errorDiv.remove();
+            }
+          }, 5000);
+        }
+      }
+    }
+    
+    // 生成热力图数据
+    function generateHeatmapData(filteredData) {
+      const heatmapPoints = [];
+      
+      // 计算每个点的密度权重
+      filteredData.forEach(feature => {
+        const coords = feature.geometry.coordinates;
+        const lat = coords[1];
+        const lng = coords[0];
+        
+        // 计算该点周围的患者密度
+        let density = 0;
+        filteredData.forEach(otherFeature => {
+          const otherCoords = otherFeature.geometry.coordinates;
+          const otherLat = otherCoords[1];
+          const otherLng = otherCoords[0];
+          
+          // 计算距离（简化计算）
+          const distance = Math.sqrt(
+            Math.pow(lat - otherLat, 2) + Math.pow(lng - otherLng, 2)
+          ) * 111; // 大致转换为公里
+          
+          // 距离越近权重越大，使用高斯核函数
+          if (distance <= 5) { // 5公里范围内
+            const weight = Math.exp(-Math.pow(distance, 2) / (2 * Math.pow(1.5, 2)));
+            density += weight;
+          }
+        });
+        
+        // 归一化密度值到0-1范围
+        const normalizedDensity = Math.min(density / 10, 1.0);
+        heatmapPoints.push([lat, lng, normalizedDensity]);
+      });
+      
+      return heatmapPoints;
+    }
+    
+    // 更新地图显示
+    function updateMap() {
+      // 清除现有图层
+      if (pointLayer) {
+        map.removeLayer(pointLayer);
+        safeRemoveOverlay("患者点图");
+      }
+      if (heatmapLayer) {
+        map.removeLayer(heatmapLayer);
+        safeRemoveOverlay("热力图");
+      }
+      if (clusterLayer) map.removeLayer(clusterLayer);
+      
+      // 过滤数据
+      const filteredData = currentData.filter(feature => {
+        const props = feature.properties;
+        const strainMatch = currentStrain === 'all' || props.strain === currentStrain;
+        return strainMatch;
+      });
+      
+      // 添加聚类图层
+      if (document.getElementById('clustering-toggle').checked) {
+        clusterLayer = L.markerClusterGroup(createClusterConfig());
+        
+        // 添加患者点到聚类
+        filteredData.forEach(feature => {
+          const coords = feature.geometry.coordinates;
+          const props = feature.properties;
+          const color = strainColors[props.strain] || '#999';
+          
+          const marker = L.circleMarker([coords[1], coords[0]], {
+            radius: 6,
+            fillColor: color,
+            color: '#333',
+            weight: 2,
+            opacity: 1,
+            fillOpacity: 0.8
+          });
+          
+          // 绑定弹窗
+          marker.bindPopup(`
+            <div style="min-width: 200px;">
+              <h4>患者信息</h4>
+              <p><strong>患者ID：</strong>${props.id}</p>
+              <p><strong>菌种：</strong>${props.strain}</p>
+            </div>
+          `);
+          
+          clusterLayer.addLayer(marker);
+        });
+        
+        // 患者聚类不需要添加到图层控制中
+        
+        clusterLayer.addTo(map);
+      }
+      
+      // 添加点图层
+      if (document.getElementById('points-toggle').checked) {
+        pointLayer = L.geoJSON(filteredData, {
+          onEachFeature: function (feature, layer) {
+            const props = feature.properties;
+            layer.bindPopup(`
+              <div style="min-width: 200px;">
+                <h4>患者信息</h4>
+                <p><strong>患者ID：</strong>${props.id}</p>
+                <p><strong>菌种：</strong>${props.strain}</p>
+              </div>
+            `);
+          },
+          pointToLayer: function (feature, latlng) {
+            const props = feature.properties;
+            const color = strainColors[props.strain] || '#999';
+            
+            return L.circleMarker(latlng, {
+              radius: 8,
+              fillColor: color,
+              color: '#333',
+              weight: 2,
+              opacity: 1,
+              fillOpacity: 0.8
+            });
+          }
+        });
+        
+        // 更新图层控制
+        safeAddOverlay(pointLayer, "患者点图");
+        
+        pointLayer.addTo(map);
+      }
+      
+      // 添加热力图
+      if (document.getElementById('heatmap-toggle').checked && filteredData.length > 0) {
+        const heatmapData = generateHeatmapData(filteredData);
+        
+        if (heatmapData.length > 0) {
+          // 根据数据量调整热力图参数
+          const radius = filteredData.length > 100 ? 25 : 20;
+          const blur = filteredData.length > 100 ? 20 : 15;
+          
+          heatmapLayer = L.heatLayer(heatmapData, {
+            radius: radius,
+            blur: blur,
+            maxZoom: 10,
+            gradient: {
+              0.2: '#ffffcc',
+              0.4: '#ffeda0',
+              0.6: '#fed976',
+              0.8: '#feb24c',
+              1.0: '#f03b20'
+            }
+          });
+          
+          // 更新图层控制
+          safeAddOverlay(heatmapLayer, "热力图");
+          
+          heatmapLayer.addTo(map);
+          
+          // 更新热力强度统计
+          const maxIntensity = Math.max(...heatmapData.map(point => point[2]));
+          document.getElementById('heat-intensity').textContent = `热力峰值: ${maxIntensity.toFixed(3)}`;
+          
+          // 更新colorbar标签
+          updateColorbarLabels(heatmapData);
+        }
+      }
+      
+      updateStats();
+    }
+    
+    // 添加图例
+    function addLegend() {
+      const legend = L.control({ position: 'bottomright' });
+      
+      legend.onAdd = function (map) {
+        const div = L.DomUtil.create('div', 'legend');
+        div.innerHTML = `
+          <h4>图例</h4>
+          <div class="legend-item">
+            <div class="legend-color" style="background-color: #e74c3c;"></div>
+            <span>ESBLE</span>
+          </div>
+          <div class="legend-item">
+            <div class="legend-color" style="background-color: #3498db;"></div>
+            <span>MRSA</span>
+          </div>
+          <div class="legend-item">
+            <div class="legend-color" style="background-color: #f39c12;"></div>
+            <span>CRO</span>
+          </div>
+          <hr style="margin: 10px 0;">
+          <div class="legend-item">
+            <div class="legend-color" style="background-color: rgba(139, 0, 0, 0.5); border-radius: 50%; width: 30px; height: 30px;"></div>
+            <span>患者聚类</span>
+          </div>
+          <div style="font-size: 12px; color: #666; margin-top: 5px;">
+            圆圈大小表示患者数量
+          </div>
+          <hr style="margin: 10px 0;">
+          <div class="legend-item">
+            <span>热力图强度</span>
+          </div>
+          <div class="colorbar-container">
+            <div class="colorbar" id="heatmap-colorbar"></div>
+            <div class="colorbar-labels" id="colorbar-labels">
+              <span>0</span>
+              <span>0.5</span>
+              <span>1.0</span>
+            </div>
+          </div>
+          <div style="font-size: 12px; color: #666; margin-top: 10px;">
+            热力图基于患者聚集程度计算
+          </div>
+        `;
+        return div;
+      };
+      
+      legend.addTo(map);
+    }
+    
+    // 更新colorbar标签
+    function updateColorbarLabels(heatmapData) {
+      const colorbarLabels = document.getElementById('colorbar-labels');
+      if (colorbarLabels && heatmapData.length > 0) {
+        const maxIntensity = Math.max(...heatmapData.map(point => point[2]));
+        const minIntensity = Math.min(...heatmapData.map(point => point[2]));
+        const midIntensity = (minIntensity + maxIntensity) / 2;
+        
+        colorbarLabels.innerHTML = `
+          <span>${minIntensity.toFixed(3)}</span>
+          <span>${midIntensity.toFixed(3)}</span>
+          <span>${maxIntensity.toFixed(3)}</span>
+        `;
+      }
+    }
+    
+    // 更新统计信息
+    function updateStats() {
+      const totalPatients = allData.features.length;
+      
+      // 根据当前筛选条件计算显示的患者数
+      const filteredData = currentData.filter(feature => {
+        const props = feature.properties;
+        const strainMatch = currentStrain === 'all' || props.strain === currentStrain;
+        return strainMatch;
+      });
+      
+      const currentPatients = filteredData.length;
+      
+      // 计算主要菌种 - 基于当前筛选的数据
+      const strainCounts = {};
+      filteredData.forEach(feature => {
+        const strain = feature.properties.strain;
+        strainCounts[strain] = (strainCounts[strain] || 0) + 1;
+      });
+      
+      let mainStrain = '-';
+      if (currentStrain === 'all') {
+        // 显示所有菌种时，显示数量最多的菌种
+        if (Object.keys(strainCounts).length > 0) {
+          mainStrain = Object.entries(strainCounts).sort((a, b) => b[1] - a[1])[0][0];
+        }
+      } else {
+        // 筛选特定菌种时，显示该菌种
+        mainStrain = currentStrain;
+      }
+      
+      document.getElementById('total-patients').textContent = totalPatients;
+      document.getElementById('current-patients').textContent = currentPatients;
+      document.getElementById('main-strain').textContent = mainStrain;
+    }
+    
+    // 事件监听器
+    function setupEventListeners() {
+      // 图层切换
+      document.getElementById('clustering-toggle').addEventListener('change', updateMap);
+      document.getElementById('points-toggle').addEventListener('change', updateMap);
+      document.getElementById('heatmap-toggle').addEventListener('change', updateMap);
+      
+      // 菌种筛选
+      document.getElementById('strain-filter').addEventListener('change', function() {
+        currentStrain = this.value;
+        updateMap();
+      });
+    }
+    
+    // 初始化应用
+    function init() {
+      initMap();
+      loadData();
+      setupEventListeners();
+    }
+    
+    // 启动应用
+    init();
+  </script>
+</body>
+</html>

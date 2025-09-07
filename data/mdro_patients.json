@@ -1,0 +1,6361 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "101003",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.573350849169,
+          22.2480765149391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "101004",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.226992399951,
+          22.1618983590358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "101005",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.300551247665,
+          22.1534530520149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "101023",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.488684725145,
+          22.2507518858336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "101030",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.546712958781,
+          22.2692283710479
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "101033",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.520097389371,
+          22.2488475466359
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "102009",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.521130858188,
+          22.2156187027445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "102011",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.545722553487,
+          22.237125766026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "102018",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.527096413638,
+          22.2353870496366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "102019",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.123680157091,
+          23.6141209283298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "102023",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.555778803219,
+          22.2814520963068
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "102032",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.289613734055,
+          22.1970239616842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "102043",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.542139021103,
+          22.2429661595042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "102045",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.57036412802,
+          22.2420948741257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "102046",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.526269593324,
+          22.2394921984555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "102049",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.182865987529,
+          22.1077548354111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "102055",
+        "strain": "MRSA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.507466415595,
+          22.2746890083603
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "102056",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.568553320488,
+          22.2755418210206
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "102070",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.503952057937,
+          22.2473206258453
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "102076",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.476670297427,
+          22.2598462332763
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "102078",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.498693143526,
+          22.2726553269573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "102079",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.430077923107,
+          22.2016742041216
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "102087",
+        "strain": "CRO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.514839337673,
+          22.2603112626049
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "102092",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.593804342049,
+          22.3643668924239
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "102093",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.460970446562,
+          22.2817075482671
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "102095",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.377474383749,
+          22.0198158635477
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "102104",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.445738725119,
+          22.276537671069
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "102111",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.556892169341,
+          22.3746249565138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "102112",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.571179865467,
+          22.280316818417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "102123",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.540391612211,
+          22.2708166192248
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "102140",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.502424321791,
+          22.2851308970416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "102142",
+        "strain": "MRSA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.513009437406,
+          22.2254992237846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "102149",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.272292773377,
+          22.0938001194643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "102155",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.522088423234,
+          22.270439309119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "102156",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.448702680274,
+          22.2062901134695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "102158",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.325419740814,
+          22.2113761453177
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "102161",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.472866793033,
+          22.2141529615169
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "102176",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.292328219064,
+          22.2117069113604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "102208",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.280334441546,
+          22.2500072094429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "102209",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.519964193206,
+          22.3075082002601
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "102210",
+        "strain": "MRSA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.308826537418,
+          22.1797432792882
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "102212",
+        "strain": "CRO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.383450365842,
+          22.3550337173595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "102216",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.501193224565,
+          22.4366676691055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "102233",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.135014570883,
+          22.0453316205686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "102237",
+        "strain": "MRSA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.522914705221,
+          22.2447819578581
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "102242",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.492169604615,
+          22.2231866152574
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "102249",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.518318938365,
+          22.2278009949846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "102256",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.487251520353,
+          22.2546377701367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "102265",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.308236120844,
+          22.2040240668902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "102284",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.551771992806,
+          22.2830797029415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "102285",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.540799255212,
+          22.434140681404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "102296",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.517608172194,
+          22.2501300365527
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103001",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.158182625659,
+          22.1410244615822
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103006",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.568898979784,
+          22.2891738559555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103007",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.540104698461,
+          22.2573691062737
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103008",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.566133815236,
+          22.2389782632057
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103009",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.506156003081,
+          22.2732067330908
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103015",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.453423280459,
+          22.2636500344751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103022",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.615949209539,
+          22.3525595749917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103023",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.469752986738,
+          22.3184250237185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103025",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.566165862467,
+          22.2863470325335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103029",
+        "strain": "CRO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.275858558725,
+          22.0775202747194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103030",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.544427186407,
+          22.3799090391263
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103031",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.234847342355,
+          22.0300652449996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103037",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.516303490624,
+          22.2403403562159
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103041",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.476149184313,
+          22.2657924613015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103044",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.573301467675,
+          22.2846209245854
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103048",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.514982943032,
+          22.2583490945024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103049",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.547218796922,
+          22.2440529030757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103054",
+        "strain": "MRSA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.525013301205,
+          22.2296887742788
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103058",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.296428391945,
+          22.2825969966747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103059",
+        "strain": "CRO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.569708628092,
+          22.2822248638119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103066",
+        "strain": "CRO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.516044635158,
+          22.287014108261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103073",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.524783467136,
+          22.2314557375841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103074",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.569236392157,
+          22.2906606005748
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103083",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.594839899877,
+          22.3609082217249
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103084",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.314967361379,
+          22.2228999345292
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103086",
+        "strain": "MRSA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.548693613227,
+          22.3966468529476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103087",
+        "strain": "MRSA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.220061071003,
+          22.1676821968918
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103104",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.514839337673,
+          22.2603112626049
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103105",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.268655265284,
+          22.1776132481187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103118",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.470265643366,
+          22.3180583551809
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103139",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.568530414062,
+          22.2892714851247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103143",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.54405142021,
+          22.2201418379897
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103154",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.325225722416,
+          22.2024584383073
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103175",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.5109543928,
+          22.2425887522236
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103176",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.618837885409,
+          22.3603941386925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103180",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.581329363268,
+          22.2385430691063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103182",
+        "strain": "CRO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.325419740814,
+          22.2113761453177
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103196",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.56460863499,
+          22.2804835626411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103200",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.365390249452,
+          22.1010642184616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103203",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.571919368593,
+          22.2727944513318
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103219",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.285641805126,
+          22.1087753540478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103220",
+        "strain": "CRO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.504784806737,
+          22.2338418805781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103221",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.178795148233,
+          22.1012427034035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103227",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.297822500113,
+          22.1963106627699
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103228",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.568542540593,
+          22.2875700524716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103230",
+        "strain": "CRO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.52453762587,
+          22.2637799693133
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103235",
+        "strain": "MRSA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.508572938474,
+          22.2322775499976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103237",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.319360108638,
+          22.2272100058001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103239",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.226992399951,
+          22.1618983590358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103241",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.563553624794,
+          22.2834260073887
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103245",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.589037693349,
+          22.3715988153815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103248",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.558215399497,
+          22.2715342042991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103253",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.503952057937,
+          22.2473206258453
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103254",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.330403859764,
+          22.1926331207333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103261",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.514988998928,
+          22.2266302485143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103264",
+        "strain": "MRSA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.190389763899,
+          22.2169525897689
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103274",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.564618510145,
+          22.3141890640359
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "103275",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.264528354225,
+          22.1588745085672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "104002",
+        "strain": "MRSA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.322190001659,
+          22.1861724365709
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "104027",
+        "strain": "MRSA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.548323996303,
+          22.2671139046748
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "104028",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.182574688256,
+          22.2432805307573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "104029",
+        "strain": "MRSA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.292986240561,
+          22.2400471538273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "104034",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.498693143526,
+          22.2726553269573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "104045",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.551386395347,
+          22.2315667902598
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "104051",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.486561003292,
+          22.1795525400198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "104053",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.226992399951,
+          22.1618983590358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "104054",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.34110549698,
+          22.169118767389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "104081",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.933345755249,
+          22.3843272833744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "104090",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.426109319437,
+          22.3386010404394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "104093",
+        "strain": "MRSA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.552766238537,
+          22.2669870028027
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "104097",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.285641805126,
+          22.1087753540478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "104111",
+        "strain": "MRSA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.340247913987,
+          22.1417396672024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "104120",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.276592192948,
+          22.1769729622333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "104129",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.343411232428,
+          22.046935540268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "104133",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.289733609679,
+          22.1958983827379
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "104139",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.159307837103,
+          22.138556574749
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "104142",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.528094053594,
+          22.2263557058661
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "104145",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.861119166013,
+          22.9848268510097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "104146",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.332720693053,
+          22.1702105233845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "104147",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.281577352611,
+          22.1627875545378
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "104166",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.178081642085,
+          22.1509187324709
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "104169",
+        "strain": "MRSA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.229460406125,
+          22.3830966962119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "104180",
+        "strain": "MRSA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.357976245038,
+          22.0568747298039
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "104188",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.507152309188,
+          22.2751122011348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "104190",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.174585754553,
+          22.0970391212209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "104207",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.553637651363,
+          22.2276554746589
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "104218",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.504558790823,
+          22.2219523395846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "104223",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.471289675801,
+          22.2145726894694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "104226",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.293595057777,
+          22.2113347895181
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "104227",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.570597970823,
+          22.2498764997362
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "105007",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.234120310814,
+          22.3368647469655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "105010",
+        "strain": "MRSA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.480400455463,
+          22.2648354993149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "105011",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.512982301712,
+          22.2884367600035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "105012",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.179178954704,
+          22.0994696511217
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "105019",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.468581603327,
+          22.2675897673067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "105021",
+        "strain": "MRSA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.388360634566,
+          22.0797214898656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "105031",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.556766952177,
+          22.3740126610857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "105047",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.570421553739,
+          22.2839950622176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "105050",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.564421935653,
+          22.2391952334461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "105051",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.538976464596,
+          22.3852581015819
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "105056",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.330403859764,
+          22.1926331207333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "105060",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.514186349863,
+          22.2883781917924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "105065",
+        "strain": "MRSA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.346293878202,
+          22.1557186224135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "105072",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.548247353185,
+          22.2271685285658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "105078",
+        "strain": "MRSA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.514839337673,
+          22.2603112626049
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "105084",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.570617316881,
+          22.29215239748
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "105089",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.47458614269,
+          22.3101546357984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "105091",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.549652649007,
+          22.2276403415933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "105110",
+        "strain": "CRO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.310275876842,
+          22.2221544661223
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "105126",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.575764012747,
+          22.2772019302509
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "106005",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.532768373504,
+          22.2211906921789
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "106006",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.348740320149,
+          22.0532783586925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "106023",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.350806554258,
+          22.1180450465371
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "106034",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.55126252028,
+          22.2880811154419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "106035",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.492378619215,
+          22.2651102049164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "106041",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.545789301955,
+          22.2751091770762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "106054",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.550612917393,
+          22.289904412171
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "106055",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.544276496488,
+          22.2436778712259
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "106081",
+        "strain": "MRSA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.587645995305,
+          22.369412184407
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "106082",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.619349584139,
+          22.3595574546075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "106105",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.575467661006,
+          22.3086667836676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "106120",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.549571946681,
+          22.2828856325296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "106171",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.561524411893,
+          22.2450922312542
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "106177",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.517555965968,
+          22.2194671193833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "106180",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.569416596259,
+          22.275919843409
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "106198",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.465157826383,
+          22.2543696857888
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "106223",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.553705596879,
+          22.27805571883
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "106226",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.556251377736,
+          22.2878735690981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "106229",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.346998427916,
+          22.0522117758814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "106236",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.474000238883,
+          22.3252384169558
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "106237",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.462018279108,
+          22.3163618946971
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "106244",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.521242942979,
+          22.2823672979127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "106245",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.546980752839,
+          22.2827576297791
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "106250",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.545590810346,
+          22.4315585335456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "106256",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.446611073793,
+          22.3490084289423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "106258",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.570564333428,
+          22.243394477801
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "106265",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.590369159818,
+          22.3598129947674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "106277",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.293502835296,
+          22.2018616630871
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "106280",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.473635537043,
+          22.3636259123024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "106292",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.468581603327,
+          22.2675897673067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "107003",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.523066033275,
+          22.2627937579034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "107005",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.524783467136,
+          22.2314557375841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "107009",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.537230924772,
+          22.2243833183441
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "107015",
+        "strain": "MRSA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.498713278819,
+          22.2871173137187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "107023",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.302229870126,
+          22.1720462556815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "107024",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.351721566266,
+          20.0052014779947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "107029",
+        "strain": "MRSA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.604436879648,
+          22.3746866918774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "107049",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.517556589414,
+          22.2253760760074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "107053",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.552002188556,
+          22.2252208281051
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "107056",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.233350418481,
+          22.1613325662104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "107058",
+        "strain": "MRSA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.346399814054,
+          22.138628701055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "107067",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.566165862467,
+          22.2863470325335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "107080",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.264759882605,
+          22.1630559431081
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "107081",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.34010750373,
+          22.167242839385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "107084",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.22870692717,
+          22.0286666544748
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "107089",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.570409268016,
+          22.2566903553913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "107098",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.530510852386,
+          22.2343624111683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "107105",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.385458696069,
+          22.0792625090959
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "107118",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.553457811075,
+          22.2661879717255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "107122",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.523735857592,
+          22.2518783226114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "107143",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.490657354377,
+          22.2385520304317
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "107145",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.515909631317,
+          22.2333650354887
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "107178",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.555760782027,
+          22.281192997084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "107190",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.564057922748,
+          22.2925540534684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "107198",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.604436879648,
+          22.3746866918774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "107200",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.536291243634,
+          22.2721607118155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "107201",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.53717532907,
+          22.2783354672535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "107210",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.590085472545,
+          22.3368675724196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "107218",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.34165093522,
+          22.1469072187921
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "107221",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.287729346584,
+          22.2192633931186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "107225",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.52518335865,
+          22.2527524253815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "107230",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.530510852386,
+          22.2343624111683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "107231",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.464709424284,
+          22.2548416382569
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "107233",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.553920100354,
+          22.2774639222018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "107236",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.553675542276,
+          22.2778856209404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "107256",
+        "strain": "MRSA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.568572816066,
+          22.2524311715283
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "107264",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.504558790823,
+          22.2219523395846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "107265",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.575467661006,
+          22.3086667836676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "107273",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.556766952177,
+          22.3740126610857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "107277",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.468431449922,
+          22.2627009523418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "107280",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.529331254009,
+          22.2820745013825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "107293",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.50371567745,
+          22.2870432505379
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "107294",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.562427244321,
+          22.2893900922673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "108018",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.525644442671,
+          22.3830241938884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "108019",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.472978025337,
+          22.3387313810079
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "108020",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.539071970289,
+          22.2248736602452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "108028",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.506296270735,
+          22.276552074086
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "108045",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.296198075062,
+          22.1096716244333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "108060",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.264372013033,
+          22.1662324425415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "108063",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.332909477874,
+          22.1372853452376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "108068",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.20669170511,
+          22.2173892264078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "108071",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.594940022706,
+          22.3594499547987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "108072",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.570058930192,
+          22.2855471096589
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "108074",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.273295975917,
+          23.5731001221348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "108081",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.357976245038,
+          22.0568747298039
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "108082",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.514785488798,
+          22.3018323229614
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "108087",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.514839337673,
+          22.2603112626049
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "108090",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.463324444216,
+          22.6909574708266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "108094",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.506925640714,
+          22.2733920557371
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "108099",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.443092300945,
+          22.3396183713418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "108100",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.525005714831,
+          22.1915397150754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "108102",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.446663102094,
+          22.2746550908153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "108131",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.54738764068,
+          22.2843778598672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "108132",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.514839337673,
+          22.2603112626049
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "108138",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.518051498424,
+          22.2521758923187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "108139",
+        "strain": "MRSA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.52271286935,
+          22.2790093700673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "108141",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.178289903407,
+          22.2297264513544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "108150",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.539851235369,
+          22.2695960826435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "108157",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.18259381806,
+          22.6234765751718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "108158",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.309893981,
+          22.1097336076942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "108160",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.558949187141,
+          22.2818901597407
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "108169",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.173297163712,
+          22.1004551699302
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "108178",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.570058930192,
+          22.2855471096589
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "108186",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.226992399951,
+          22.1618983590358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "108192",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.565005786297,
+          22.2887052466684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "108194",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.542630470763,
+          22.3657230015803
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "108209",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.366425760505,
+          22.0132527994018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "108210",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.525790951438,
+          22.2575204435504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "108225",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.552878844924,
+          22.2298868896379
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "108226",
+        "strain": "MRSA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.568738782343,
+          22.3042114838048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "108236",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.516384603017,
+          22.2583620639546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "108243",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.544907903784,
+          22.2623987871984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "108244",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.551771992806,
+          22.2830797029415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "108246",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.502424321791,
+          22.2851308970416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "108247",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.538720349557,
+          22.376113145382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "108268",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.508278539836,
+          22.284955181862
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "108270",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.340247913987,
+          22.1417396672024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "108271",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.564057922748,
+          22.2925540534684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "108279",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.224160381196,
+          22.1650535735961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "108283",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.536604708931,
+          22.4192498747317
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "108286",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.342014233738,
+          22.1472657181188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "108299",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.528351321112,
+          22.2813808216733
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "109005",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.489974826044,
+          22.22556780958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "109007",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.495884546741,
+          22.2541375297085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "109020",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.377474383749,
+          22.0198158635477
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "109021",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.481686533979,
+          22.2690324670143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "109024",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.531682243221,
+          22.2358367889615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "109025",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.45657522922,
+          22.2139429218186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "109027",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.522133385011,
+          22.2576777470444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "109036",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.342673009738,
+          22.1624834748704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "109040",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.351687833553,
+          22.1522884429917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "109041",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.504558790823,
+          22.2219523395846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "109042",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.378578756184,
+          22.0776190409567
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "109047",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.562184045828,
+          22.2855957650518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "109054",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.494098836508,
+          22.2306978677549
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "109057",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.480685020247,
+          22.2709250643461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "109060",
+        "strain": "MRSA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.519644092444,
+          22.4016595703341
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "110007",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.286110332434,
+          22.1973001574916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "110019",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.570904342946,
+          22.250889108401
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "110024",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.189541809406,
+          22.225448985166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "110039",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.555422212564,
+          22.2789798440466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "110048",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.589690495454,
+          22.3646757593631
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "110056",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.560701090128,
+          22.3832699954124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "110057",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.47558181837,
+          22.3040129953594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "110060",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.513721140064,
+          22.2362397289073
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "110076",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.322965602077,
+          22.1832909025879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "110081",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.572126740103,
+          22.3029155522293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "110085",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.550430407665,
+          22.2755922372093
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "110089",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.550873809188,
+          22.2853076792608
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "110090",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.293502835296,
+          22.2018616630871
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "110101",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.568396301966,
+          22.2878059556426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "110104",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.353754742256,
+          22.3145996606743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "110107",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.519962278512,
+          22.2749287625038
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "110109",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.290650374213,
+          22.1761118003775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "110128",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.562194752287,
+          22.2905210721232
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "110130",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.515788742697,
+          22.2876735588789
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "110132",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.505139970774,
+          22.3896713080943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "110137",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.294681791022,
+          22.201577678563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "110139",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.544552428923,
+          22.2400343036011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "110140",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.510687353729,
+          22.2290836865113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "110153",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.531496604947,
+          22.2215546925925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "110159",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.524706891581,
+          22.2054068199521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "110177",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.53022079283,
+          22.2842823335239
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "110185",
+        "strain": "MRSA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.292927866357,
+          22.2013093783676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "110186",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.521796601134,
+          22.2686710184909
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "110187",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.340247913987,
+          22.1417396672024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "110195",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.499297130217,
+          22.2280136203756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "110203",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.563857414064,
+          22.2478311907137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "110205",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.582565982688,
+          22.3723799369367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "110208",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.514205539063,
+          22.2864357353113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "110232",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.442484790232,
+          22.2958651947042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "110237",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.496587386547,
+          22.2790567669444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "110243",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.231245499725,
+          22.0074302378197
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "110247",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.265233724052,
+          22.1745039129433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "110248",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.565589511339,
+          22.2926709904853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "110249",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.477078323805,
+          22.2648858708234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "110290",
+        "strain": "MRSA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.569287463858,
+          22.2434361857855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "110299",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.52146541534,
+          22.2549711319858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "110300",
+        "strain": "CRO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.307522157799,
+          22.2403043687354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "111012",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.498693143526,
+          22.2726553269573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "111033",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.1643344575,
+          22.0712265835471
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "111044",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.550182650764,
+          22.2627611479339
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "111048",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.594793454479,
+          22.3204891176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "111065",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.524113461444,
+          22.1985468451038
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "112004",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.549655002706,
+          22.2378986362158
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "112015",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.544594849616,
+          22.4074370795943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "112017",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.536888239896,
+          22.3766120428037
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "112018",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.52404628048,
+          22.2606017402493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "112022",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.53042867977,
+          22.3893593732243
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "112035",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.523721874877,
+          22.2665325905515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "112055",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.519844156481,
+          22.2084177246462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "112063",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.468581603327,
+          22.2675897673067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "112075",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.520386243842,
+          22.250121726699
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "112080",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.498693143526,
+          22.2726553269573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "112110",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.287729346584,
+          22.2192633931186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "112111",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.498997640082,
+          22.2194368953832
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "112116",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.211784305639,
+          22.0850239211222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "112117",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.530619731577,
+          22.2413528900914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "112121",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.538720349557,
+          22.376113145382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "112132",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.316853729313,
+          22.2196712917267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "112138",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.5194906376,
+          23.7056493209116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "112153",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.528255671759,
+          24.8285087019492
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "112161",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.429872927393,
+          22.1962019742642
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "112162",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.359102914542,
+          22.0063420549325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "112165",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.521956388429,
+          22.3111495059154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "112181",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.284333011265,
+          22.1055578054181
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "112195",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.566902305887,
+          22.2823758363341
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "112196",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.449248006931,
+          22.2072006238443
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "112197",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.475933716905,
+          22.215939271105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "112205",
+        "strain": "MRSA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.373323966637,
+          22.0801496170487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "112206",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.545940080315,
+          22.2216181773011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "112215",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.595524641319,
+          22.3680643755335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "112217",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.385123305804,
+          22.0721915702577
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "112240",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.156496862927,
+          22.1057818315759
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "112271",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.484500212342,
+          22.2214781270608
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "112279",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.571259887828,
+          22.2817332783551
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "112281",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.527647616479,
+          22.2274469152296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "112298",
+        "strain": "MRSA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.34136464072,
+          22.1443257047266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "113006",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.514587612945,
+          22.3051655763074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "113008",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.295110190678,
+          22.1991761431107
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "113023",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.516472973108,
+          22.2571569569499
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "113032",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.569378661918,
+          22.2897525137361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "113047",
+        "strain": "MRSA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.520766460047,
+          22.2659324322016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "113049",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.191568530326,
+          22.1112903369729
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "113053",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.52345720824,
+          22.2326055787567
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "113058",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.549046228706,
+          22.2590149322095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "113066",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.552263819022,
+          22.2874487358831
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "113079",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.518076498827,
+          22.2534493446556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "113087",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.550581815078,
+          22.2746762612644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "113088",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.543094804802,
+          22.2383357384899
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "113093",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.462352563818,
+          22.2661957899112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "113098",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.515369511059,
+          22.3006836969286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "113113",
+        "strain": "MRSA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.518428226326,
+          22.3068137855461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "113120",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.460709436835,
+          22.3158834305838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "113143",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.228905315382,
+          22.2723715006125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "113151",
+        "strain": "MRSA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.527548461025,
+          22.2407649140196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "113157",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.487937986219,
+          22.2531653797607
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "113164",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.54781118163,
+          22.2605640251471
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "113169",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.585482482256,
+          22.3699196719605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "113170",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.930656991009,
+          22.3577207216335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "113178",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.510435473069,
+          22.2450260003109
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "113180",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.393775417942,
+          22.3618253188358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "113196",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.457327965996,
+          22.3265773738024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "113200",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.51613742542,
+          22.2483603674445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "113210",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.568530414062,
+          22.2892714851247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "113232",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.596778953269,
+          22.3207649191279
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "113251",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.521291853421,
+          22.2862184580828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "113264",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.553829033347,
+          22.2124347320989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "113272",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.285649181683,
+          22.1644627220951
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "113274",
+        "strain": "MRSA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.295530786501,
+          22.2092629665185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "113281",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.523735857592,
+          22.2518783226114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "113283",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.322965602077,
+          22.1832909025879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "113286",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.293502835296,
+          22.2018616630871
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "113297",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.545266099169,
+          22.2263343717001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "113299",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.285649181683,
+          22.1644627220951
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "301010",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.519763078834,
+          22.2523576897591
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "301114",
+        "strain": "MRSA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.355593604609,
+          22.3031281443252
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "301115",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.006988717335,
+          23.178747265622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "301122",
+        "strain": "MRSA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.538400689685,
+          22.2318214071968
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "301129",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.517288071827,
+          22.2196484300685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "301134",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.192159572381,
+          22.233575981315
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "301148",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.558562029092,
+          22.2724189782571
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "501042",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.285649181683,
+          22.1644627220951
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "501056",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.234847342355,
+          22.0300652449996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "501095",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.538037089282,
+          22.2255185352201
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "501096",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.552929096825,
+          22.2276672564374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "601002",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.167741160835,
+          22.0961118486159
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "601008",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.192229502558,
+          22.004159671088
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "601022",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.175670505805,
+          22.1006906994509
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "601032",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.159307837103,
+          22.138556574749
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "601056",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.182640153815,
+          22.0990267301035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "601068",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.11459691272,
+          22.0649075221141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "601073",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.182256139439,
+          22.1042302533397
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "602020",
+        "strain": "MRSA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.234847342355,
+          22.0300652449996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "602022",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.156496862927,
+          22.1057818315759
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "602024",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.182865987529,
+          22.1077548354111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "602039",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.182865987529,
+          22.1077548354111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "603020",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.182865987529,
+          22.1077548354111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "603028",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.182865987529,
+          22.1077548354111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "603032",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.170061393043,
+          22.0972076997518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "603052",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.458010437574,
+          22.5608908470308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "603055",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.182865987529,
+          22.1077548354111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "603073",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.119243935594,
+          22.0772234658885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "604006",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.182865987529,
+          22.1077548354111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "604009",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.192152000468,
+          22.0876542235791
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "604013",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.11459691272,
+          22.0649075221141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "604019",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.158210215629,
+          22.1019363852971
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "604020",
+        "strain": "MRSA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.284333011265,
+          22.1055578054181
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "604025",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.159307837103,
+          22.138556574749
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "604028",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.133979316731,
+          22.088396154513
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "604030",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.285641805126,
+          22.1087753540478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "604042",
+        "strain": "ESBLE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.168687879938,
+          21.9728996613765
+        ]
+      }
+    }
+  ]
+}
