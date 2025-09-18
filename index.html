@@ -254,6 +254,7 @@
         <option value="ESBLE">ESBLE</option>
         <option value="MRSA">MRSA</option>
         <option value="CRO">CRO</option>
+        <option value="OTHER">其他患者</option>
       </select>
     </div>
   </div>
@@ -295,7 +296,8 @@
     const strainColors = {
       'ESBLE': '#e74c3c',  // 红色 - 最多
       'MRSA': '#3498db',   // 蓝色
-      'CRO': '#f39c12'     // 橙色
+      'CRO': '#f39c12',    // 橙色
+      'OTHER': '#95a5a6'   // 灰色 - 其他患者
     };
     
     // 图层管理变量
@@ -713,6 +715,10 @@
           <div class="legend-item">
             <div class="legend-color" style="background-color: #f39c12;"></div>
             <span>CRO</span>
+          </div>
+          <div class="legend-item">
+            <div class="legend-color" style="background-color: #95a5a6;"></div>
+            <span>其他患者</span>
           </div>
           <hr style="margin: 10px 0;">
           <div class="legend-item">

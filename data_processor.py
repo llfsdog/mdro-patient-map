@@ -55,7 +55,7 @@ def validate_strain_type(strain: str) -> bool:
     Returns:
         菌种类型是否有效
     """
-    valid_strains = ['MRSA', 'ESBLE', 'CRO']
+    valid_strains = ['MRSA', 'ESBLE', 'CRO', 'OTHER']
     return str(strain).strip().upper() in valid_strains
 
 def clean_data(df: pd.DataFrame) -> pd.DataFrame:
@@ -130,8 +130,10 @@ def clean_data(df: pd.DataFrame) -> pd.DataFrame:
             mask = df['strain'].isna() & df[strain_col].notna()
             df.loc[mask, 'strain'] = df.loc[mask, strain_col]
         
-        # 删除没有菌种信息的行
-        df = df.dropna(subset=['strain'])
+        # 将没有菌种信息的患者标记为"OTHER"
+        df['strain'] = df['strain'].fillna('OTHER')
+        
+        # 不再删除没有菌种信息的行，而是标记为OTHER
         
     except Exception as e:
         print(f"数据类型转换失败: {e}")
@@ -292,11 +294,11 @@ def process_mdro_data(excel_file: str, output_dir: str = "data") -> bool:
 
 if __name__ == "__main__":
     # 处理MDRO数据
-    excel_file = "MDRO.xlsx"
+    excel_file = "副本MDRO.xlsx"
     
     if not os.path.exists(excel_file):
         print(f"Excel文件 {excel_file} 不存在")
-        print("请确保MDRO.xlsx文件在当前目录下")
+        print("请确保副本MDRO.xlsx文件在当前目录下")
     else:
         success = process_mdro_data(excel_file)
         if success:
